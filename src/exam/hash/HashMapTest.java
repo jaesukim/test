@@ -21,6 +21,11 @@ public class HashMapTest {
   hashMap.put("고주몽", new Integer(88)); 
   hashMap.put("을지문덕", new Integer(95));
   
+  hashMap.put("zzz", new Integer(60));
+  hashMap.put("zz", new Integer(99));
+  hashMap.put("aaa", new Integer(88)); 
+  hashMap.put("ffff", new Integer(95));
+  
 // 자료 가져오기
   Integer obj = hashMap.get("이순신");
   System.out.println(obj);
